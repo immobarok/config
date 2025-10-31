@@ -1,0 +1,133 @@
+{
+  "editor.fontFamily": "'Operator Mono Lig', 'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "500",
+  "editor.lineHeight": 32,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 2,
+  "editor.smoothScrolling": true,
+  "editor.scrollbar.verticalScrollbarSize": 8,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "boundary",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.fixAll.eslint": "explicit"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editorAssociations": {
+    "*.svg": "default"
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "storage.modifier",
+          "storage.type.php",
+          "keyword.other.new.php",
+          "entity.other.attribute-name",
+          "fenced_code.block.language.markdown",
+          "keyword",
+          "storage.modifier",
+          "storage.type",
+          "keyword.control",
+          "constant.language",
+          "entity.other.attribute-name",
+          "entity.name.method",
+          "keyword.control.import.ts",
+          "keyword.control.import.tsx",
+          "keyword.control.import.js",
+          "keyword.control.flow.js",
+          "keyword.control.from.js",
+          "keyword.control.from.ts",
+          "keyword.control.from.tsx"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": ["entity.name.type.class"],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": ["entity.name.section.markdown"],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          "invalid",
+          "keyword.operator",
+          "constant.numeric.css",
+          "keyword.other.unit.px.css",
+          "constant.numeric.decimal.js",
+          "constant.numeric.json",
+          "comment.block",
+          "entity.other.attribute-name.class.css"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "workbench.colorCustomizations": {
+    "tab.activeBackground": "#000000",
+    "activityBar.background": "#000000",
+    "sideBar.background": "#1c2027",
+    "editor.background": "#22262c"
+  },
+  "terminal.integrated.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.lineHeight": 1.4,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorWidth": 2,
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.minimumContrastRatio": 4.5,
+  "terminal.integrated.drawBoldTextInBrightColors": false,
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.donotVerifyTags": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "files.autoSave": "afterDelay",
+  "git.autofetch": true,
+  "git.openRepositoryInParentFolders": "never",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.fontSize": 18,
+  "workbench.editor.empty.hint": "hidden",
+  "editor.overviewRulerBorder": false,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "reactSnippets.settings.importReactOnTop": false,
+  "workbench.colorTheme": "Theme Mix",
+  "workbench.productIconTheme": "material-product-icons",
+  "git.confirmSync": false,
+  "editor.unicodeHighlight.allowedLocales": {
+    "cs": true
+  }
+}
